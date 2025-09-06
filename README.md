@@ -11,7 +11,6 @@ O objetivo do projeto é responder questões disponíveis em juízes online sobr
 
 ## Guia de instalação
 **Linguagem**: C<br>
-Linguagem: C
 
 ### Dependências do projeto
 Para a utilização do projeto, deve-se ter acesso ao compilador de linguagem C gcc.
