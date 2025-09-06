@@ -1,5 +1,5 @@
 # Busca - Algoritmos de busca 
-Repositório para resolução de questões relacionadas à algoritmos de busca
+Repositório para resolução de questões relacionadas à algoritmos de busca e hash table.
 
 ## Aluno  
 | Matrícula | Nome |  
@@ -25,11 +25,51 @@ Cada questão foi separada em uma pasta diferente e para executar os códigos de
     ./xxx < xxx.txt
 ```
 
+### Execuções do repositório
+- Beecrowd 1025 - Onde está o Mármore?
+```sh
+    cd Questoes/1025/
+    gcc -o 1025 1025.c
+    ./1025 < 1025.txt
+```
+
+
+- Beecrowd 1382 - Elementar, meu Caro Watson!
+```sh
+    cd Questoes/1382/
+    gcc -o 1382 1382.c
+    ./1382 < 1382.txt
+```
+
+- LeetCode - 149. Max Points on a Line
+
+Adaptada para teste fora do ambiente do leetcode, a function main não é utilizada para o submit da resposta no online judge.
+```sh
+    cd /Questoes/max-points-on-a-line/
+    gcc -o resposta resposta.c
+    ./resposta < resposta.txt
+```
+
+- LeetCode - 3. Longest Substring Without Repeating Characters
+
+Adaptada para teste fora do ambiente do leetcode, a function main não é utilizada para o submit da resposta no online judge.
+```sh
+    cd /Questoes/longest-substring/
+    gcc -o resposta resposta.c
+    ./resposta < resposta.txt
+```
+
 ## Capturas de tela
-Todo: Adicionar
+Todo: Adicionar capturas de tela
 
 ## Conclusões
-Aqui você diz se o algoritmo utilizado foi útil, se tem limitações, etc.
+As questões abordadas no projeto foram:
 
-## Referências
-Caso tenha utilizado algum agoritmo como base, citar o mesmo devidamente para  evitar quaisquer denuncias de plágio.
+- [LeetCode - 149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/description/)
+- [LeetCode - 3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
+- [Beecrowd - 1025 Onde está o Mármore?](https://judge.beecrowd.com/pt/problems/view/1025)
+
+### Extra
+Questão extra, não está dentro do assunto de Algoritmos de busca diretamente, mas tem na resolução um endereçamento direto no array de "permutacao" que consulta em O(1).
+
+- [Beecrowd - 1382 Elementar, meu Caro Watson!](https://judge.beecrowd.com/pt/problems/view/1382)
