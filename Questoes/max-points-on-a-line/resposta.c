@@ -14,15 +14,15 @@ int mdc(int a, int b) {
     return mdc(b, a % b);
 }
 
-long long hash(int dx, int dy, int capacidade) {
-    const int P1 = 1000003;
-    const int P2 = 10000019;
-    long long h = (long long)dx * P1 + (long long)dy * P2;
+unsigned int hash(int dx, int dy, int capacidade) {
+    const unsigned int P1 = 1000003;
+    const unsigned int P2 = 10000019;
+    unsigned int h = dx * P1 + dy * P2;
     return (h % capacidade);
 }
 
 int adicionarHash(EntradaReta* tabela, int capacidade, int dx, int dy) {
-    long long h = hash(dx, dy, capacidade);
+    unsigned int h = hash(dx, dy, capacidade);
 
     while (tabela[h].ocupado) {
         if (tabela[h].dx == dx && tabela[h].dy == dy) {
