@@ -88,3 +88,8 @@ As questões abordadas no projeto foram:
 - [Beecrowd - 1025 Onde está o Mármore?](https://judge.beecrowd.com/pt/problems/view/1025)
 - [LeetCode - 149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/description/)
 - [LeetCode - 3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
+
+## Apresentações de resoluções
+Exemplificações em vídeo de aplicações entre os exercicios resolvidos.
+
+- [LeetCode - 3. Longest Substring Without Repeating Characters](http://drive.google.com/file/d/1UKU371XHyk5Q6tzAkzcKQdI0Btm83pnV/view)
