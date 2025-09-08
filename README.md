@@ -33,14 +33,6 @@ Cada questão foi separada em uma pasta diferente e para executar os códigos de
     ./1025 < 1025.txt
 ```
 
-
-- Beecrowd 1382 - Elementar, meu Caro Watson!
-```sh
-    cd Questoes/1382/
-    gcc -o 1382 1382.c
-    ./1382 < 1382.txt
-```
-
 - LeetCode - 149. Max Points on a Line
 
 Adaptada para teste fora do ambiente do leetcode, a function main não é utilizada para o submit da resposta no online judge.
@@ -60,16 +52,39 @@ Adaptada para teste fora do ambiente do leetcode, a function main não é utiliz
 ```
 
 ## Capturas de tela
-Todo: Adicionar capturas de tela
+
+Execuções e aproves do online judge das questões resolvidas:
+
+### 1025 - Onde está o Mármore?
+- Execução
+
+![1025](/screenshots/1025.png)
+
+- Submit Online Judge
+
+![1025 Submit](/screenshots/1025-submit.png)
+
+### Max Points on a Line
+- Execução
+
+![Max Points on a Line](/screenshots/max-points-on-a-line.png)
+
+- Submit Online Judge
+
+![Max Points on a Line Submit](/screenshots/max-points-on-a-line-submit.png)
+
+### Longest Substring Without Repeating Characters
+- Execução
+
+![Longest Substring Without Repeating Characters](/screenshots/longest-substring.png)
+
+- Submit Online Judge
+
+![Longest Substring Without Repeating Characters Submit](/screenshots/longest-substring-submit.png)
 
 ## Conclusões
 As questões abordadas no projeto foram:
 
+- [Beecrowd - 1025 Onde está o Mármore?](https://judge.beecrowd.com/pt/problems/view/1025)
 - [LeetCode - 149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/description/)
 - [LeetCode - 3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
-- [Beecrowd - 1025 Onde está o Mármore?](https://judge.beecrowd.com/pt/problems/view/1025)
-
-### Extra
-Questão extra, não está dentro do assunto de Algoritmos de busca diretamente, mas tem na resolução um endereçamento direto no array de "permutacao" que consulta em O(1).
-
-- [Beecrowd - 1382 Elementar, meu Caro Watson!](https://judge.beecrowd.com/pt/problems/view/1382)
